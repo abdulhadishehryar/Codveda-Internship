@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Brew Haven</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" /></head>
+<body class="font-inter">
+  <header>
+    <nav class="container">
+      <a href="index.html" class="site-title">Brew Haven</a>
+      <div>
+        <a href="contact.html" class="nav-link active-external">Contact Us</a>
+                <a href="about.html" class="nav-link">About Us</a>
+
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-section">
+    <section class="container contact-section">
+      <h2>Get in Touch</h2>
+      <div class="contact-form-container">
+        <p style="text-align: center; margin-bottom: 2rem; color: var(--gray-700);">
+          We'd love to hear from you! Fill out the form below or reach us directly.
+        </p>
+        <form action="https://example.com/submit-form" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+          </div>
+          <button type="submit" class="contact-submit-btn">Send Message</button>
+        </form>
+      </div>
+      <div class="location-section" style="margin-top: 3rem;">
+        <h3 style="font-size: 1.75rem; font-weight: 600; margin-bottom: 1.5rem; color: var(--brown-800);">Contact Information</h3>
+        <p style="margin-bottom: 0.5rem;">Email: <a href="mailto:info@brewhaven.com" style="color: var(--brown-700); text-decoration: underline;">info@brewhaven.com</a></p>
+        <p>Phone: <span style="color: var(--brown-700);">(123) 456-7890</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Brew Haven. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+      <p class="contact-info">Contact: <a href="mailto:info@brewhaven.com">info@brewhaven.com</a> | (123) 456-7890</p>
+    </div>
+  </footer>
+</body>
+</html>
